@@ -20,16 +20,16 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Portada</a>
+                <a class="nav-link" href="{% url 'home' %}">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">Acerca de</a>
+                <a class="nav-link" href="{% url 'about' %}">Acerca de</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portafolio</a>
+                <a class="nav-link" href="{% url 'portfolio' %}">Portafolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacto</a>
+                <a class="nav-link" href="{% url 'contact' %}">Contacto</a>
               </li>
             </ul>
           </div>
