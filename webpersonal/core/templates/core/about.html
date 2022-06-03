@@ -1,19 +1,35 @@
 {% extends 'core/base.html' %}
 {% block content %}
     <!-- Cabecera -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/about-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Juan Pérez</h1>
-              <span class="subheading">Ingeniero Industrial</span>
+              <h1>Acerca de</h1>
+              <span class="subheading">Biografía</span>
             </div>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="img/avatar.jpg" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Juan Pérez</h2>   
+          <p>Nacido en... lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+        </div>
+      </div>  
+    </div>
+
+    <hr>
 
     <!-- Pié de página -->
     <footer>
@@ -52,9 +68,11 @@
       </div>
     </footer>
 
-    <!-- Bootstrap y Javascripts -->
+    <!-- jQuert y Bootstrap -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scripts del template -->
     <script src="js/clean-blog.min.js"></script>
+
     {% endblock %}
- 
